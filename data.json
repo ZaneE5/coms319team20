@@ -1,0 +1,39 @@
+{
+    "womenclubs": [
+        {
+            "name": "Girls Who Code - College Loop",
+            "description": "Welcome to \"Girls Who Code,\" where aspiring young women gather to learn, collaborate, and innovate in the world of technology. As an extension of the esteemed Girls Who Code organization, our club is committed to providing an inclusive space for girls to develop coding skills, explore tech trends, and cultivate lasting connections. Through workshops, projects, and discussions, we empower members of all skill levels to thrive. Join us to break tech barriers, embrace creativity, and be part of a supportive sisterhood that's reshaping the future of the tech industry one line of code at a time.",
+            "image": "./images/girls_who_code.jpg"
+        },
+        {
+            "name": "Women Who Code",
+            "description": "A coding club with a fun and friendly environment for girls who are interested in programming and participating in coding contests. The main goal is training girls to compete in different coding competitions, especially ACM ICPC, and form a team of girls with high competitive programming skills to be a representative of Iowa State University in the future upcoming contests.",
+            "img": "./images/women_who_code.jpg"
+        },
+        {
+            "name": "Alpha Sigma Kappa",
+            "description": "Alpha Sigma Kappa: Women in Technical Studies is a social sorority for women studying technical majors. Our sorority is committed to achieving academic goals, promoting women in technical fields, improving leadership abilities, and encouraging friendship.",
+            "img": "./images/ask.jpg"
+        }
+    ],
+    "foreignclubs": [
+        {
+            "name": "Pakistan Student Association",
+            "description": "As a student organization we seek to bring together all Pakistani/domestic students and faculty on campus and within the greater of Ames community. Through our various events each semester we hope to raise public awareness and promote an understanding of Pakistan, its culture, its heritage, and its politics. We also aim to serve and provide an avenue for students to come together to learn about Pakistan and comfortably adjust to the Iowa State campus.",
+            "image": "./images/PSA.jpg",
+            "img-src": "https://www.stuorg.iastate.edu/psa"
+        },
+        {
+            "name": "Ames Student Association for Malaysians",
+            "description": "The Ames Student Association for Malaysians (ASAM) represents as the official Malaysian student organization here at Iowa State University since 19XX. The goal and mission of ASAM is to promote Malaysian culture and traditions to the diverse community here at Iowa State University to students, faculty and staff, while also being the backbone for all Malaysian students being a second home away from home.",
+            "img": "./images/asam.png",
+            "img-src": "https://www.stuorg.iastate.edu/322"
+        },
+        {
+            "name": "Brazilian Student Organization",
+            "description": "The Brazilian Student Organization serves as a core for Brazilian students, professors, and professionals at Iowa State University. Recently joining forces with BRASA, the largest community of Brazilian students abroad, we're dedicated to weaving together cultural and professional pursuits. Our mission involves empowering Brazilian students, fostering a robust support network, and amplifying the Brazilian cultural footprint in our community. Our key objectives encompass organizing engaging cultural and professional events, as well as providing a reliable support system for students, scholars, and staff.",
+            "img": "./images/brasa.png",
+            "img-src": "https://www.stuorg.iastate.edu/bossa"
+        }
+    ]
+  }
