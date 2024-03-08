@@ -3,7 +3,7 @@
         {
             "name": "Girls Who Code - College Loop",
             "description": "Welcome to \"Girls Who Code,\" where aspiring young women gather to learn, collaborate, and innovate in the world of technology. As an extension of the esteemed Girls Who Code organization, our club is committed to providing an inclusive space for girls to develop coding skills, explore tech trends, and cultivate lasting connections. Through workshops, projects, and discussions, we empower members of all skill levels to thrive. Join us to break tech barriers, embrace creativity, and be part of a supportive sisterhood that's reshaping the future of the tech industry one line of code at a time.",
-            "image": "./images/girls_who_code.jpg"
+            "img": "./images/girls_who_code.jpg"
         },
         {
             "name": "Women Who Code",
@@ -16,7 +16,7 @@
             "img": "./images/ask.jpg"
         }
     ],
-    "foreignclubs": [
+    "culturalclubs": [
         {
             "name": "Pakistan Student Association",
             "description": "As a student organization we seek to bring together all Pakistani/domestic students and faculty on campus and within the greater of Ames community. Through our various events each semester we hope to raise public awareness and promote an understanding of Pakistan, its culture, its heritage, and its politics. We also aim to serve and provide an avenue for students to come together to learn about Pakistan and comfortably adjust to the Iowa State campus.",
