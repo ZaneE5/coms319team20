@@ -1,6 +1,6 @@
 fetch("./data.json")
     .then(response => response.json())
-    .then(myclubs => loadclubs(myclubs));
+    .then(myclubs => loadClubs(myclubs));
 
 
 function loadClubs(myclubs){
