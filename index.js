@@ -9,6 +9,13 @@ function loadClubs(myclubs){
 }
 
 function loadWomenClubs(myclubs){
+    var titleContainer = document.getElementById("title");
+
+    let titlediv = document.createElement("div");
+    titlediv.innerHTML = `
+    <h1 class="fw-light"> Women's Clubs at ISU</h1>
+    <p> These clubs are focused for women. This is by no means an exhaustive list of clubs for women at ISU, only a selective few that are focused more towards computer science and technology majors.</p>`;
+
     var mainContainer = document.getElementById("clubs");
 
     var checkboxes = [];

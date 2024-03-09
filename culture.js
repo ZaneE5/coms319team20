@@ -8,6 +8,14 @@ function loadClubs(myclubs){
 }
 
 function loadCulturalClubs(myclubs){
+    var titleContainer = document.getElementById("title");
+
+    let titlediv = document.createElement("div");
+    titlediv.innerHTML = `
+    <h1 class="fw-light"> Cultural Clubs at ISU</h1>
+    <p> These clubs are focused for students of particular cultures. This is by no means an exhaustive list of cultural clubs at ISU, only a selective few that are focused more towards computer science and technology majors.</p>`;
+    
+
     var mainContainer = document.getElementById("clubs");
 
     var checkboxes = [];
