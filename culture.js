@@ -21,10 +21,10 @@ function loadCulturalClubs(myclubs){
     var checkboxes = [];
     var cards = [];
 
-    for (var i = 0; i < myclubs.foreignclubs.length; i++){
-        let name = myclubs.foreignclubs[i].name;
-        let description = myclubs.foreignclubs[i].description;
-        let img = myclubs.foreignclubs[i].img;
+    for (var i = 0; i < myclubs.culturalclubs.length; i++){
+        let name = myclubs.culturalclubs[i].name;
+        let description = myclubs.culturalclubs[i].description;
+        let img = myclubs.culturalclubs[i].img;
 
         let checkbox = "checkbox" + i.toString();
         let card = "card" + i.toString();
