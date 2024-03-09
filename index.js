@@ -5,23 +5,31 @@ fetch("./data.json")
 
 function loadClubs(myclubs){
     loadWomenClubs(myclubs);
-    loadCulturalClubs(myclubs);
+    //loadCulturalClubs(myclubs);
 }
 
 function loadWomenClubs(myclubs){
     var mainContainer = document.getElementById("clubs");
+
+    var checkboxes = [];
+    var cards = [];
 
     for (var i = 0; i < myclubs.womenclubs.length; i++){
         let name = myclubs.womenclubs[i].name;
         let description = myclubs.womenclubs[i].description;
         let img = myclubs.womenclubs[i].img;
 
+        let checkbox = "checkbox" + i.toString();
+        let card = "card" + i.toString();
+
         let div = document.createElement("div");
         div.className = "col";
         div.innerHTML = `
-        <div class="col">
-        <div class="card shadow-sm">
-          <img src="${img}" alt="Club image">
+        <input type="checkbox" id=${checkbox} class="form-check-input" checked>
+        <label for=${checkbox} class="form-check-label">Show Image ${i}</label>
+
+        <div id = ${card} class="card shadow-sm">
+          <img src="${img}" alt="Club image" width="410">
           <div class="card-body">
             <p class="card-text"><strong>${name}</strong></p>
             <p class="card-text">${description}</p>
@@ -31,32 +39,23 @@ function loadWomenClubs(myclubs){
         </div>
       </div>`;
         mainContainer.appendChild(div);
+
+        let cbox = document.getElementById(checkbox);
+        checkboxes.push(cbox);
+        let ccard = document.getElementById(card);
+        cards.push(ccard);
     }
-}
+    console.log(checkboxes);
+    console.log(cards);
 
-function loadCulturalClubs(myclubs){
-    var mainContainer = document.getElementById("clubs");
-
-    for (var i = 0; i < myclubs.culturalclubs.length; i++){
-        let name = myclubs.culturalclubs[i].name;
-        let description = myclubs.culturalclubs[i].description;
-        let img = myclubs.culturalclubs[i].img;
-        let imgsrc = myclubs.culturalclubs[i].img-src;
-
-        let div = document.createElement("div");
-        div.className = "col";
-        div.innerHTML = `
-        <div class="col">
-        <div class="card shadow-sm">
-          <img src="${img}" alt="Club image">
-          <div class="card-body">
-            <p class="card-text"><strong>${name}</strong></p>
-            <p class="card-text">${description} "Image sourced from ${imgsrc}.</p>
-            <div class="d-flex justify-content-between align-items-center">
-            </div>
-          </div>
-        </div>
-      </div>`;
-        mainContainer.appendChild(div);
-    }
+    checkboxes.forEach((checkboxParam, index) => {
+        console.log(index);
+        checkboxParam.addEventListener('change', () => {
+            if (checkboxParam.checked) {
+                cards[index].style.display = 'block'; 
+            } else {
+                cards[index].style.display = 'none'; 
+            }
+        });
+    });
 }
