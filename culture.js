@@ -25,7 +25,7 @@ function loadCulturalClubs(myclubs){
         let name = myclubs.culturalclubs[i].name;
         let description = myclubs.culturalclubs[i].description;
         let img = myclubs.culturalclubs[i].img;
-        let img_src = myclubs.culturalclubs[i].img-src;
+        let img_src = myclubs.culturalclubs[i].img_src;
 
         let checkbox = "checkbox" + i.toString();
         let card = "card" + i.toString();
