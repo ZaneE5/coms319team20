@@ -20,7 +20,7 @@
         {
             "name": "Pakistan Student Association",
             "description": "As a student organization we seek to bring together all Pakistani/domestic students and faculty on campus and within the greater of Ames community. Through our various events each semester we hope to raise public awareness and promote an understanding of Pakistan, its culture, its heritage, and its politics. We also aim to serve and provide an avenue for students to come together to learn about Pakistan and comfortably adjust to the Iowa State campus.",
-            "image": "./images/PSA.jpg",
+            "img": "./images/PSA.jpg",
             "img-src": "https://www.stuorg.iastate.edu/psa"
         },
         {
@@ -32,7 +32,7 @@
         {
             "name": "Brazilian Student Organization",
             "description": "The Brazilian Student Organization serves as a core for Brazilian students, professors, and professionals at Iowa State University. Recently joining forces with BRASA, the largest community of Brazilian students abroad, we're dedicated to weaving together cultural and professional pursuits. Our mission involves empowering Brazilian students, fostering a robust support network, and amplifying the Brazilian cultural footprint in our community. Our key objectives encompass organizing engaging cultural and professional events, as well as providing a reliable support system for students, scholars, and staff.",
-            "img": "./images/brasa.png",
+            "img": "./images/brasa.jpg",
             "img-src": "https://www.stuorg.iastate.edu/bossa"
         }
     ]

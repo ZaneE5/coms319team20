@@ -25,6 +25,7 @@ function loadCulturalClubs(myclubs){
         let name = myclubs.culturalclubs[i].name;
         let description = myclubs.culturalclubs[i].description;
         let img = myclubs.culturalclubs[i].img;
+        let img_src = myclubs.culturalclubs[i].img-src;
 
         let checkbox = "checkbox" + i.toString();
         let card = "card" + i.toString();
@@ -40,6 +41,7 @@ function loadCulturalClubs(myclubs){
           <div class="card-body">
             <p class="card-text"><strong>${name}</strong></p>
             <p class="card-text">${description}</p>
+            <p class="card-text">Image sourced from ${img_src}</p>
             <div class="d-flex justify-content-between align-items-center">
             </div>
           </div>
